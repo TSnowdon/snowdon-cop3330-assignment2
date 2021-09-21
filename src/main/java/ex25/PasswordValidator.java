@@ -6,7 +6,6 @@
 package ex25;
 
 import java.util.function.Predicate;
-import java.util.regex.Pattern;
 
 public enum PasswordValidator {
     VERY_WEAK("very weak", string -> {
