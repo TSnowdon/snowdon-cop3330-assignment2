@@ -1,11 +1,12 @@
+/*
+ * UCF COP3330 Fall 2021 Assignment 2 Solution
+ * Copyright 2021 Tyler Snowdon
+ */
+
 package ex25;
 
 import ex25.App;
 import org.junit.jupiter.api.Test;
-/*
- *  UCF COP3330 Fall 2021 Assignment 2 Solution
- *  Copyright 2021 Tyler Snowdon
- */
 import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

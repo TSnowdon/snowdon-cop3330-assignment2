@@ -1,11 +1,12 @@
+/*
+ * UCF COP3330 Fall 2021 Assignment 2 Solution
+ * Copyright 2021 Tyler Snowdon
+ */
+
 package ex30;
 
 import tools.Utils;
 
-/*
- *  UCF COP3330 Fall 2021 Assignment 2 Solution
- *  Copyright 2021 Tyler Snowdon
- */
 public class App {
 
     private static final int TIMES_TABLE_VAL = 12;
