@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class AppTest {
     @Test
     public void test() {
-        assertEquals(138, App.getTargetHeartRate(22, 65, (55f / 100f)));
+        assertEquals(138.15, App.getTargetHeartRate(22, 65, 0.55));
         App.printTable(22, 65);
     }
 }
