@@ -49,7 +49,10 @@ public class App {
         number = Math.floor(Math.random() * difficulty.getMaxRange()) + 1;
     }
 
-    private static boolean guessNumber(int guess) {
+    public static void setNumber(int val){
+        number = val;
+    }
+    public static boolean guessNumber(int guess) {
         if (guess == number) {
             Utils.output("You got it in %d guesses!", count);
             return true;

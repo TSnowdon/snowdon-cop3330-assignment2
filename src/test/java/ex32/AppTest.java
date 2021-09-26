@@ -7,9 +7,12 @@ package ex32;
 
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 public class AppTest {
     @Test
     public void test() {
-        App.startGame();
+        App.setNumber(5);
+        assertTrue(App.guessNumber(5));
     }
 }
