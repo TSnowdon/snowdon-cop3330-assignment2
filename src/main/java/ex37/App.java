@@ -15,8 +15,8 @@ import java.util.stream.IntStream;
 
 public class App {
 
-    private static final ArrayList<String> LETTERS = new ArrayList<>(List.of("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"));
-    private static final ArrayList<String> SPECIAL_CHARACTERS = new ArrayList<>(List.of("!", "@", "#", "$", "%", "^", "&", "*", "-", "_"));
+    public static final ArrayList<String> LETTERS = new ArrayList<>(List.of("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"));
+    public static final ArrayList<String> SPECIAL_CHARACTERS = new ArrayList<>(List.of("!", "@", "#", "$", "%", "^", "&", "*", "-", "_"));
 
     public static void main(String[] args) {
         int length = Utils.queryInt("What's the minimum length?");
